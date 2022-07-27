@@ -67,7 +67,7 @@ async def start_bot():
             bot_modules += "|{:<15}".format(i)
         j += 1
     print("+===============================================================+")
-    print("|                              Nezuko                           |")
+    print("|                              ᴍᴀꜱʜɪʀᴏ ꜱʜɪɪɴᴀ                           |")
     print("+===============+===============+===============+===============+")
     print(bot_modules)
     print("+===============+===============+===============+===============+")
@@ -85,7 +85,7 @@ async def start_bot():
             )
 
         else:
-            await app.send_message(LOG_GROUP_ID, "Bot started!")
+            await app.send_message(LOG_GROUP_ID, "Bot Telah Berjalan! Server Sukses Di Koneksi!")
     except Exception:
         pass
 
@@ -108,7 +108,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo ❤️",
-                url="https://github.com/rozari0/NezukoBot",
+                url="https://github.com/davethecrazyiest/NezukoBot",
             ),
         ],
         [
@@ -142,7 +142,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/rozari0/NezukoBot",
+                url="https://github.com/davethecrazyiest/NezukoBot",
             ),
         ],
         [
